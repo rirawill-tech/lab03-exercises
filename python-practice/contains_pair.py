@@ -8,3 +8,4 @@ def check(l: list):
 
 print(check([1, 2, 3, 2]))
 print(check([5, 2, -10, 44, 90]))
+print(check([]))                    # should print False (empty list)
